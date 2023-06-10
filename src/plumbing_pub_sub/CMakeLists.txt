@@ -216,3 +216,9 @@ add_executable(demo01_pub src/demo01_pub.cpp)
 target_link_libraries(demo01_pub
 ${catkin_LIBRARIES}
 )
+
+add_executable(demo02_sub src/demo02_sub.cpp)
+
+target_link_libraries(demo02_sub
+${catkin_LIBRARIES}
+)
